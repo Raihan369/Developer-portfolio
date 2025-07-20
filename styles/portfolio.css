@@ -219,8 +219,8 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     display: none;
 } */
 
-/* for iphone 14 pro max 8.6 */
-@media screen and (min-width:430px) and (max-width: 932px) {
+/* responsive for iphone 14 pro max 8.6 */
+@media screen and (max-width: 576px) {
     .skills-content, .resume-container, footer , .about-items , .banner, nav , nav> ul {
         flex-direction: column;
     }
